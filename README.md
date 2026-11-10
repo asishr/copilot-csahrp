@@ -14,8 +14,6 @@ Learners will:
 
 | Resource | Purpose |
 | --- | --- |
-| [Instructor agendas](INSTRUCTOR.md) | Two 180-minute runbooks, facilitation cues, evidence and fallback paths |
-| [Sponsor review](SPONSOR-REVIEW.md) | Proposed demos, sample approval questions, scope and delivery gates |
 | [Reusable prompts](PROMPTS.md) | Copyable, IDE-neutral prompts for each technology and review stage |
 | [Learner lab](LEARNER-LAB.md) | Runnable neutral C# exercise plus cross-stack review/refactoring exercises |
 | [Setup and support verification](SETUP-AND-SUPPORT.md) | On-premises verification gate, capability distinctions and first-party sources |
