@@ -42,19 +42,6 @@ Verification record:
 | Administrator decision and reviewer | Pending |
 | Workshop fallback | IDE-assisted local review, human Azure DevOps PR review |
 
-## Preflight checklist
-
-- Confirm two new three-hour bookings and timezone; do not send the elapsed Nov 10 invitation.
-- Confirm each learner has an assigned Copilot entitlement and an organization-approved supported IDE with current permitted Copilot integration. Rehearse on the team's actual version; do not assume slash commands, modes or review buttons match across IDEs.
-- Verify sign-in and an approved synthetic chat/completion. Check proxy/firewall, content exclusions and organization feature policies. Never bypass them.
-- Obtain permission for the specific source/context used. Avoid secrets, customer data, logs with personal data and connection strings. An on-premises checkout is not itself permission to transmit context.
-- Confirm Git or TFVC workflow. Git commands in this pack apply only to Git; TFVC users use an approved workspace and shelveset/review equivalent.
-- Use a disposable copy for the neutral practice project. It needs a **.NET 10 SDK**, no external packages, database, network call, or Windows service installation. This is a teaching-fixture choice, not a customer upgrade recommendation.
-- For customer exercises, use the application's existing compatible SDK, build tools, packages and tests. Confirm EF6 vs EF Core and provider-specific translation before suggesting APIs.
-- Confirm read-only, sanitized database access and a disposable service test host if executing integration checks. Without them, the cross-stack exercises remain patch/test-design work.
-- Run the neutral harness using the [learner instructions](LEARNER-LAB.md#setup-and-baseline). Record the real baseline; do not claim customer tests have passed.
-- Pre-identify baseline files, learner output location and reset procedure. Never discard an existing dirty worktree to reset a lab.
-
 ## First-party sources
 
 1. [GitHub: Copilot in IDEs](https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-in-ides) - distinguishes IDE assistance, agent mode and cloud sessions; available features vary by IDE.
