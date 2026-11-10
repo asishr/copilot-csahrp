@@ -14,12 +14,6 @@
 
 Azure DevOps Services and Azure DevOps Server are different products. A self-hosted build agent, an extension, an MCP integration, GitHub connectivity, or a local IDE review does not establish native on-premises Copilot PR-review support. An on-premises repository is also not a guarantee that code stays on premises when using AI services.
 
-## Exact-version verification gate
-
-**Result now: BLOCKED - exact Azure DevOps Server release/update/build is unknown.** The user confirmed it is unknown. No exact-version support claim or live native PR-review demo is authorized.
-
-The first-party page checked below documents **Services**, not a Server release. That establishes the scope of the published feature, not a verified answer for an unidentified installation. Never relabel a Services preview as a Server feature.
-
 Administrator checklist:
 
 1. Record product name, full release/update/build from the installation's About information, edition, Git vs TFVC, authentication and relevant extensions. Do not include credentials.
